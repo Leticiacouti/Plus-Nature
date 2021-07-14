@@ -1,0 +1,259 @@
+*{
+    margin: 0vh;
+    padding: 0vh;
+}
+body{
+    font-family: candara, sans-serif;
+    margin: 0vh auto;
+    background-color: rgb(232, 236, 232);
+    color: rgb(22, 104, 129);
+}
+header img{
+    margin: 0vh 0vh 0vh 5vh;
+    float: left;
+    width: 20vh;
+    height: 17vh;
+}
+nav{
+    background-color: rgb(40, 87, 110);
+    height: 15vh;
+}
+                nav ul{
+                    display: flex;
+                    float: right;
+                }
+                nav ul li{
+                    text-transform: uppercase;
+                    list-style: none;
+                    position: relative;
+                }
+                nav ul li a{
+                    margin: 3vh 15vh 0vh 0vh;
+                    padding: 3vh 5vh 3vh 5vh;
+                    display: block;
+                    color: whitesmoke;
+                    text-decoration: none;
+                }
+                nav ul li a:hover{
+                    color: rgba(229, 255, 0, 0.932);
+                }   
+                nav ul li ul{
+                    background-color: rgb(39, 150, 98);
+                    display: none;
+                    position: absolute;
+                }
+                nav ul li:hover ul{
+                    background-color: rgb(40, 87, 110);
+                    display: block;
+                    position: absolute;
+                    top:10vh;
+                }
+                nav ul li ul li a{
+                    margin: 0vh 0vh 0vh 0vh;
+                    padding: 3vh 5vh 3vh 5vh;
+                }
+                img#mais{
+                    height: 5vh;
+                    width: 8vh;
+                    position: relative;
+                    top: 5vh;
+                    right: 4vh;
+                    cursor: pointer;
+                }
+main{
+    margin: 8vh;
+    font-size: 3vh;
+    display: grid;
+    grid-gap: 3vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "main_section main_section main_section"
+    "aside1 section1 section1"
+    "aside2 section2 section2"
+    "aside3 section3 section3"
+    "last_section last_section last_section"
+}
+                #main_section{
+                    height: 35vh;
+                    grid-area: main_section;
+                    background-color: rgba(151, 149, 149, 0.322);
+                    border: 0.3vh solid rgb(5, 25, 34);
+                }
+                                #main_section h1{
+                                    color: rgb(5, 25, 34);
+                                    background-color: rgba(73, 149, 112);
+                                    font-size: 6vh;
+                                    padding: 2vh 0vh 2vh 2vh;
+                                    text-transform: uppercase;
+                                }
+                                #main_section p{
+                                    line-height: 1.5;
+                                    margin: 3vh 3vh 0vh 3vh;
+                                }
+                #aside1{
+                    background-image: url(../IMG/quais_problemas_img1.jpg);
+                    background-size: cover;
+                    background-position: bottom center;
+                    grid-area: aside1;
+                    background-color: rgba(151, 149, 149, 0.322);
+                    border: 0.3vh solid rgb(5, 25, 34);
+                }
+                #aside2{
+                    background-image: url(../IMG/img_metal.png);
+                    background-size: cover;
+                    grid-area: aside2;
+                    background-color: rgba(151, 149, 149, 0.322);
+                    border: 0.3vh solid rgb(5, 25, 34);
+                }
+                #aside3{
+                    background-image: url(../IMG/quais_problemas_img3.jpg);
+                    background-size: cover;
+                    grid-area: aside3;
+                    background-color: rgba(151, 149, 149, 0.322);
+                    border: 0.3vh solid rgb(5, 25, 34);
+                }
+                #section1{
+                    height: 30vh;
+                    grid-area: section1;
+                    background-color: rgba(151, 149, 149, 0.322);
+                    border: 0.3vh solid rgb(5, 25, 34);
+                }
+                                #section1 h2{
+                                    background-color: rgba(73, 149, 112);
+                                    font-size: 4vh;
+                                    padding: 1vh 0vh 1vh 1vh;
+                                    text-transform: uppercase;
+                                }
+                                #section1 h2 a{
+                                    color: rgb(5, 25, 34);
+                                    text-decoration: none;
+                                }
+                                #section1 h2 a:hover{
+                                    color: rgba(229, 255, 0, 0.932);
+                                }
+                                #section1 p{
+                                    margin: 3vh 3vh 3vh 3vh;
+                                }
+                #section2{
+                    height: 30vh;
+                    grid-area: section2;
+                    background-color: rgba(151, 149, 149, 0.322);
+                    border: 0.3vh solid rgb(5, 25, 34);
+                }
+                                #section2 h2{
+                                    background-color: rgba(73, 149, 112);
+                                    font-size: 4vh;
+                                    padding: 1vh 0vh 1vh 1vh;
+                                    text-transform: uppercase;
+                                }
+                                #section2 h2 a{
+                                    color: rgb(5, 25, 34);
+                                    text-decoration: none;
+                                }
+                                #section2 h2 a:hover{
+                                    color: rgba(229, 255, 0, 0.932);
+                                }
+                                #section2 p{
+                                    margin: 3vh 3vh 3vh 3vh;
+                                }
+                #section3{
+                    height: 30vh;
+                    grid-area: section3;
+                    background-color: rgba(151, 149, 149, 0.322);
+                    border: 0.3vh solid rgb(5, 25, 34);
+                }
+                                #section3 h2{
+                                    background-color: rgba(73, 149, 112);
+                                    font-size: 4vh;
+                                    padding: 1vh 0vh 1vh 1vh;
+                                    text-transform: uppercase;
+                                }
+                                #section3 h2 a{
+                                    color: rgb(5, 25, 34);
+                                    text-decoration: none;
+                                }
+                                #section3 h2 a:hover{
+                                    color: rgba(229, 255, 0, 0.932);
+                                }
+                                #section3 p{
+                                    margin: 3vh 3vh 3vh 3vh;
+                                }
+                #last_section{
+                    height: 30vh;
+                    grid-area: last_section;
+                    background-color: rgba(151, 149, 149, 0.322);
+                    border: 0.3vh solid rgb(5, 25, 34);
+                }
+                                #last_section h1{
+                                    background-color: rgba(73, 149, 112);
+                                    font-size: 6vh;
+                                    padding: 2vh 0vh 2vh 2vh;
+                                    text-transform: uppercase;
+                                }
+                                #last_section h1 a{
+                                    color: rgb(5, 25, 34);
+                                    text-decoration: none;
+                                }
+                                #last_section h1 a:hover{
+                                    color: rgba(229, 255, 0, 0.932);
+                                }
+                                #last_section p{
+                                    margin: 3vh 3vh 3vh 3vh;
+                                }
+                                #last_section span a{
+                                    color: rgb(22, 104, 129);
+                                    text-decoration: none;
+                                }
+                                #last_section span a:hover{
+                                    color: rgba(229, 255, 0, 0.932);
+                                }
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:  15vh 15vh;
+    background-color: rgb(40, 87, 110);
+    height: 30vh;
+    color: white;
+}
+                footer h1{
+                    text-align: center;
+                    grid-column: 1/2;
+                    grid-row: 1/2;
+                    margin-top: 11.5vh;
+                }
+                footer h1 a{
+                    text-decoration: none;
+                    color: white;
+                }
+                .redes_sociais{
+                    grid-column: 2/3;
+                    grid-row: 1/2;
+                    list-style: none;
+                    margin: 5vh 0vh 0vh 8vh;
+                    line-height: 2;
+                }
+                .contato{
+                    grid-column: 3/4;
+                    grid-row: 1/2;
+                    list-style: none;
+                    margin: 5vh 7vh 0vh 0vh;
+                    line-height: 2;
+                }
+                .footer_li:hover{
+                    color: rgba(229, 255, 0, 0.932);
+                    font-size: 3vh;
+                }
+                .footer_li a{
+                    text-decoration: none;
+                    color: white;
+                }
+                .footer_li a:hover{
+                    font-size: 3vh;
+                    color: rgba(229, 255, 0, 0.932);
+                }
+                .copy_text{
+                    grid-column: 2/4;
+                    grid-row: 2/3;
+                    margin: 10vh 0vh 0vh 6.5vh;
+                    font-size: 3vh;
+                }

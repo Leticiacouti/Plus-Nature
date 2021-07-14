@@ -1,0 +1,322 @@
+*{
+    margin: 0vh;
+    padding: 0vh;
+}
+body{
+    font-family: candara, sans-serif;
+    margin: auto;
+    background-color: rgb(232, 236, 232);
+    color: rgb(22, 104, 129);
+
+}
+main{
+    margin: 8vh;
+    font-size: 3vh;
+}
+                .div_main{
+                    display: grid;
+                    grid-template-columns: 2fr 1fr;
+                    grid-template-rows: 41vh 50vh 50vh 40vh;
+                    grid-gap: 20px;
+                }
+header img{
+    margin: 0vh 0vh 0vh 5vh;
+    float: left;
+    width: 20vh;
+    height: 17vh;
+}
+nav{
+    background-color: rgb(40, 87, 110);
+    height: 15vh;
+}
+                nav ul{
+                    display: flex;
+                    float: right;
+                }
+                nav ul li{
+                    text-transform: uppercase;
+                    list-style: none;
+                    position: relative;
+                }
+                nav ul li a{
+                    margin: 3vh 15vh 0vh 0vh;
+                    padding: 3vh 5vh 3vh 5vh;
+                    display: block;
+                    color: whitesmoke;
+                    text-decoration: none;
+                }
+                nav ul li a:hover{
+                    color: rgba(229, 255, 0, 0.932);
+                }   
+                nav ul li ul{
+                    background-color: rgb(39, 150, 98);
+                    display: none;
+                    position: absolute;
+                }
+                nav ul li:hover ul{
+                    background-color: rgb(40, 87, 110);
+                    display: block;
+                    position: absolute;
+                    top:10vh;
+                }
+                nav ul li ul li a{
+                    margin: 0vh 0vh 0vh 0vh;
+                    padding: 3vh 5vh 3vh 5vh;
+                }
+                img#mais{
+                    height: 5vh;
+                    width: 8vh;
+                    position: relative;
+                    top: 5vh;
+                    right: 4vh;
+                    cursor: pointer;
+                }
+h1,h2,strong{
+    color: rgb(5, 25, 34);
+}
+.mg{
+    margin: 10px;
+    font-size: 17px;
+    
+}
+.mg a{
+    text-decoration: none;
+}
+.pp{
+    padding: 0px 20px;
+    background-color: rgba(128, 128, 128, 0.322);
+    grid-area: pp;
+    border: 0.3vh solid black;
+}
+.pp h1{
+    margin: 0vh -3.1vh 0vh -3.1vh;
+    background-color: rgba(73, 149, 112);
+}
+.sp{
+   
+    background-color:rgb(232, 236, 232);
+    grid-area: sp;
+   
+}
+.tp{
+    padding: 0px 20px;
+    background-color: rgba(128, 128, 128, 0.322);
+    grid-area:tp ;
+    margin-right:2vh;
+    margin-top: 2vh;
+    border-radius: 10px;
+    
+}
+.qp{
+    padding: 0px 20px;
+    background-color: rgba(128, 128, 128, 0.322);
+    margin-top: 2vh;
+    grid-area: qp;
+    margin-right:2vh;
+    border-radius: 10px;
+}
+#btnSubmit{
+    font-size: 18px;
+    margin: 5px;
+    width: 70px;
+    height: 50px;
+    margin-left:30vh;
+    cursor: pointer;
+    color: rgb(223, 240, 232);
+    background-color:rgb(73, 149, 112);
+    border-radius: 2vh;
+    cursor: pointer;
+}
+#btnSubmit:hover{
+    background-color: rgb(74, 140, 112);
+}
+.qup{
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(128, 128, 128, 0.322);
+    margin-top: 2vh;
+    grid-area: qup;
+    border-radius: 10px;
+    
+}
+.qup a{
+    color: rgb(22, 104, 129);
+    text-decoration: none;
+}
+.qup a:hover{
+    color: rgb(241, 241, 73);
+}
+.p1{
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(128, 128, 128, 0.322);
+    grid-area: p1;
+    margin-top: 2vh;
+    margin-right: 2vh;
+    border: 0.3vh solid black;
+}
+.p1 h1{
+    margin: -1.5vh -3.1vh 0vh -3.1vh;
+    background-color: rgba(73, 149, 112);
+}
+.p2{
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(128, 128, 128, 0.322);
+    grid-area: p2;
+    margin-top: 2vh;
+    margin-right: 2vh;
+    border: 0.3vh solid black;
+}
+.p3{
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(128, 128, 128, 0.322);
+    grid-area: p3;
+    margin-top: 2vh;
+    margin-right: 2vh;
+    border: 0.3vh solid black;
+}
+.p4{
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(128, 128, 128, 0.322); 
+    grid-area:p4;
+    margin-top: 2vh;
+    margin-right: 2vh;
+    border: 0.3vh solid black;
+}
+.p5{
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(128, 128, 128, 0.322); 
+    grid-area: p5;
+    margin-top: 2vh;
+    margin-right: 2vh;
+    border: 0.3vh solid black;
+}
+.p6{
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(128, 128, 128, 0.322);
+    grid-area:p6;
+    margin-top: 2vh;
+    margin-right: 2vh;
+    border: 0.3vh solid black;
+}
+.p7{
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(128, 128, 128, 0.322);
+    grid-area:p6;
+    margin-top: 2vh;
+    margin-right: 2vh;
+    border: 0.3vh solid black;
+}
+.p8{
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(128, 128, 128, 0.322);
+    grid-area:p6;
+    margin-top: 2vh;
+    margin-right: 2vh;
+    border: 0.3vh solid black;
+}
+.t{
+    grid-area: t;
+    margin-top: 2vh;
+    
+}
+.imagem{
+    background-image: url('../IMG/nos_ajude_js_background.jpg');
+    width: 66vh;
+    height:110vh;
+}
+.efeito::after{
+    content : '|';
+    opacity : 1;
+    animation : pisca .9s infinite;
+    margin-left: 5px;
+     
+}
+.efeito{
+    position: absolute;
+    margin-top:-90vh;
+    text-align: center;
+    width: 50vh;
+    font-size: 8vh;
+    margin-left: 10vh;
+    color: white;
+}
+@keyframes pisca {
+
+    0%,100%{ opacity : 1;}
+    50%{ opacity :0;}
+    
+    }
+.container{
+    display:grid;
+    padding:10px 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:32vh 20vh 20h 20vh 20vh 20h 20vh 31vh ;
+    grid-template-areas: "pp pp pp"
+                        " sp sp t"
+                         "p1 p1 p1"
+                         "p2 p2 p2"
+                         "p3 p3 p3"
+                         "p4 p4 p4"
+                         "p5 p5 p5"
+                         "p6 p6 p6"
+                         "p7 p7 p7"
+                         "p8 p8 p8"
+                         "p9 p9 p9"
+                         "tp qp qup"
+}
+p{
+    text-align:justify;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:  15vh 15vh;
+    background-color: rgb(40, 87, 110);
+    height: 30vh;
+    color: white;
+}
+                footer h1{
+                    text-align: center;
+                    grid-column: 1/2;
+                    grid-row: 1/2;
+                    margin-top: 11.5vh;
+                }
+                footer h1 a{
+                    text-decoration: none;
+                    color: white;
+                }
+                .redes_sociais{
+                    grid-column: 2/3;
+                    grid-row: 1/2;
+                    list-style: none;
+                    margin: 5vh 0vh 0vh 8vh;
+                    line-height: 2;
+                }
+                .contato{
+                    grid-column: 3/4;
+                    grid-row: 1/2;
+                    list-style: none;
+                    margin: 5vh 7vh 0vh 0vh;
+                    line-height: 2;
+                }
+                .footer_li:hover{
+                    color: rgba(229, 255, 0, 0.932);
+                    font-size: 3vh;
+                }
+                .footer_li a{
+                    text-decoration: none;
+                    color: white;
+                }
+                .footer_li a:hover{
+                    font-size: 3vh;
+                    color: rgba(229, 255, 0, 0.932);
+                }
+                .copy_text{
+                    grid-column: 2/4;
+                    grid-row: 2/3;
+                    margin: 10vh 0vh 0vh 6.5vh;
+                    font-size: 3vh;
+                }
+label{
+margin-right: 10vh;
+}
